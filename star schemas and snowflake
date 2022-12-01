@@ -1,0 +1,9 @@
+Both of these are multidimensional models deployed for a data warehouse. 
+There is a primary difference between Star Schema and Snowflake Schema.
+The Star Schema contains the dimension tables and fact tables- but the Snowflake schema contains sub-dimension tables as well, along with both of these. 
+Star schema is a multidimensional model type that one can use in the case of a data warehouse.
+A typical Star Schema contains both- the dimensional tables and the fact tables. It also makes use of a fewer number of foreign-key joins.
+In simpler words, this type of schema leads to the formation of a star with dimension tables and fact tables.
+Snowflake schema is also a multidimensional model type that one can use in the case of a data warehouse.
+A typical Snowflake Schema contains all three- dimension tables, fact tables, and sub-dimension tables. 
+In simpler words, this type of schema leads to the formation of a snowflake with dimension tables, fact tables, and also sub-dimension tables.
